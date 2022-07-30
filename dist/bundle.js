@@ -275,7 +275,7 @@ var RailWrapper = styled.div.withConfig({
 var Rail = styled.div.withConfig({
   displayName: "Carousel__Rail",
   componentId: "sc-hyhecw-2"
-})(["display:grid;grid-column-gap:", ";position:relative;transition:transform 0.5s cubic-bezier(0.2,1,0.3,1) 0s;grid-template-columns:", ";transform:", ";@media screen and (max-width:", "px){padding-left:", ";grid-template-columns:", ";grid-column-gap:", ";transform:translateX(0);}"], function (_ref4) {
+})(["display:grid;grid-column-gap:", ";position:relative;transition:transform 1s cubic-bezier(0.2,1,0.3,1) 0s;grid-template-columns:", ";transform:", ";@media screen and (max-width:", "px){padding-left:", ";grid-template-columns:", ";grid-column-gap:", ";transform:translateX(0);}"], function (_ref4) {
   var gap = _ref4.gap;
   return "".concat(gap, "px");
 }, function (_ref5) {

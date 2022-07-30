@@ -31,7 +31,7 @@ const Rail = styled.div`
   display: grid;
   grid-column-gap: ${({ gap }) => `${gap}px`};
   position: relative;
-  transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+  transition: transform 1s cubic-bezier(0.2, 1, 0.3, 1) 0s;
   grid-template-columns: ${({ page }) => `repeat(${page}, 100%)`};
   transform: ${({ currentPage, gap }) =>
     `translateX(calc(${-100 * currentPage}% - ${gap * currentPage}px))`};
