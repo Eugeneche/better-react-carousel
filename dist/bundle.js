@@ -346,7 +346,7 @@ var CAROUSEL_ITEM = 'CAROUSEL_ITEM';
 
 var Carousel = function Carousel(_ref20) {
   var _ref20$cols = _ref20.cols,
-      colsProp = _ref20$cols === void 0 ? 1 : _ref20$cols,
+      colsProp = _ref20$cols === void 0 ? 3 : _ref20$cols,
       _ref20$rows = _ref20.rows,
       rowsProp = _ref20$rows === void 0 ? 1 : _ref20$rows,
       _ref20$gap = _ref20.gap,
