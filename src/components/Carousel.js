@@ -88,7 +88,7 @@ const Item = styled.div`
 
 const CAROUSEL_ITEM = 'CAROUSEL_ITEM'
 const Carousel = ({
-  cols: colsProp = 1,
+  cols: colsProp = 3,
   rows: rowsProp = 1,
   gap: gapProp = 10,
   loop: loopProp = false,
